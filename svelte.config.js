@@ -23,13 +23,18 @@ const config = {
       $i18n: './src/i18n',
     },
     prerender: {
-      entries: ['/en', '/ja', '/zh', '/zh-Hans', '/zh-Hant',
+      entries: [
+        '/en',
+        '/ja',
+        '/zh',
+        '/zh-Hans',
+        '/zh-Hant',
         '/example',
         '/hello-QWER',
         '/quick-start',
-        '/versions.json'
-      ]
-    }
+        '/versions.json',
+      ],
+    },
   },
 };
 
