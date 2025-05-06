@@ -15,7 +15,7 @@
   import { afterUpdate, onMount } from 'svelte';
   import { query, result, searching } from '$lib/search/stores';
   import { LL } from '$i18n/i18n-svelte';
-  import LocaleSwitcher from './locale_switcher.svelte'
+  import LocaleSwitcher from './locale_switcher.svelte';
 
   function resetHome() {
     tagsCur.init();
@@ -124,7 +124,6 @@
   }} />
 
 <header id="header" class="fixed w-screen ease-in-out z-40" aria-label="Header Nav">
-
   {#if !$searching}
     <nav
       id="header-nav"
@@ -175,7 +174,11 @@
           in:fly|global={{ x: -50, duration: 300, delay: 300 }}
           out:fly|global={{ x: -50, duration: 300 }}>
           <div class="lg:hidden rounded-lg btn btn-ghost !p0">
-            <Dropdown nav={mobilenavConfig.hasOwnProperty(siteConfig.lang) ? mobilenavConfig[siteConfig.lang] : mobilenavConfig['en']} class="text-sm p2 ">
+            <Dropdown
+              nav={mobilenavConfig.hasOwnProperty(siteConfig.lang)
+                ? mobilenavConfig[siteConfig.lang]
+                : mobilenavConfig['en']}
+              class="text-sm p2 ">
               <button aria-label="nav menu" class="flex items-center">
                 <div class="i-mdi-hamburger-menu !w-[1.5rem] !h-[1.5rem]" />
               </button>
@@ -187,7 +190,7 @@
           </a>
 
           <div class="hidden lg:(flex)">
-            {#each (navConfig.hasOwnProperty(siteConfig.lang)  ? navConfig[siteConfig.lang] : navConfig['en']) as n}
+            {#each navConfig.hasOwnProperty(siteConfig.lang) ? navConfig[siteConfig.lang] : navConfig['en'] as n}
               <Dropdown class="text-lg px3 py2 btn btn-ghost " nav={n} />
             {/each}
           </div>
@@ -326,7 +329,6 @@
       </svg>
     </div>
   </button>
-  
 {/if}
 
 {#if !scrollingUp && scrollPercent > topPercent && scrollPercent < botPercent}
@@ -358,7 +360,6 @@
       </svg>
     </div>
   </button>
-  
 {/if}
 
 <style>

@@ -30,7 +30,7 @@
   import { siteConfig } from '$config/site';
   import { locales, baseLocale } from '$i18n/i18n-util';
 
-  import type { Locales } from '$i18n/i18n-types.js'
+  import type { Locales } from '$i18n/i18n-types.js';
 
   import { page } from '$app/stores';
   let lang = $page.url.pathname.split('/')[1];
@@ -40,8 +40,7 @@
     loadLocale(specifyLang);
     setLocale(specifyLang);
     siteConfig.lang = specifyLang;
-  }
-  else if (locales.includes(siteConfig.lang)) {
+  } else if (locales.includes(siteConfig.lang)) {
     loadLocale(siteConfig.lang);
     setLocale(siteConfig.lang);
   } else {
