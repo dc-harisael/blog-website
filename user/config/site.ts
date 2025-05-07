@@ -14,8 +14,8 @@ import SiteCover from '$assets/qwer.webp';
 export const siteConfig: Site.Config = {
   url: 'https://chc-danny.com',
   title: 'PixelReel - DC',
-  subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  subtitle: 'A game programmer blog',
+  description: 'A blog about game development.',
   lang: 'en',
   timeZone: 'America/Toronto',
   since: 2025,
@@ -146,7 +146,7 @@ export const mobilenavConfig: MobileNavConfigType = {
       },
       {
         name: 'Portfolio',
-        url: 'https://dc-harisael.work/',
+        url: 'https://portfolio.chcdanny.com/',
         rel: 'external',
       },
     ],
@@ -160,7 +160,7 @@ export const mobilenavConfig: MobileNavConfigType = {
       },
       {
         name: '作品集',
-        url: 'https://dc-harisael.work/',
+        url: 'https://portfolio.chcdanny.com/',
         rel: 'external',
       },
     ],
