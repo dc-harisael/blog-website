@@ -11,12 +11,102 @@
 
 <Post>
   <article slot="post_content">
+    <h2 id="intro"><a href="#intro">Intro</a></h2>
     <p>
-      An idiot who love video games, obsessed with making them. Always a neophyte on creativity; it&#39;s hard, it&#39;s
-      elusive, it&#39;s pellucid, but there&#39;s elegance in the emergence. And I love every bit of it.
+      Welcome here! My name&#39;s Danny and it&#39;s nice to meet you all. I&#39;m a game programmer from Hong Kong who
+      is now living in Toronto. Since this is an introduction post, I should share what you will find in this blog and
+      introduce myself.
+    </p>
+    <h2 id="about-the-blog"><a href="#about-the-blog">About the blog</a></h2>
+    <p>
+      Most of the posts will focus on <strong>game development topics</strong>
+      , such as dev logs or study progress (computer graphics, software engineering, .etc.). Maybe some book reviews or other
+      things I thinks are interesting. Ultimately, I hope this blog is not just a place to record my experience but can also
+      help other developers whoes creating a video games.
+    </p>
+    <h2 id="about-me"><a href="#about-me">About me</a></h2>
+    <p>
+      My life has been closely tied to video game when I was little. I&#39;ve played various video games on <em>
+        Nintendo Game Boy Pocket
+      </em>
+      ,
+      <em>DVDs</em>
+      ,
+      <em>Flash Player</em>
+      , and
+      <em>Nintendo DS</em>
+      . Many great games have given me unforgettable memories, which guided me to become a game developer today. I have one
+      year of professional experience in game development and have also used Unity to create several projects over the past
+      four year.
     </p>
     <p>
-      It&#39;s beautiful to make something breathtaking through programming. Never stop creating, failing, and learning.
+      Currently I&#39;m focusing on expanding my skillset in <strong>computer graphics</strong>
+      and
+      <strong>Unreal Engine 5</strong>
+      . I find it beautiful to make something breathtaking through technical means. Beside, computer graphics is also a part
+      of visual storytelling, which plays a critical role in delivering experiences to the players in my opinion.
+    </p>
+    <h2 id="video-games-i-and-39-ve-played">
+      <a href="#video-games-i-and-39-ve-played">Video Games I&#39;ve played</a>
+    </h2>
+    <p>
+      I tend to love playing RPG and SLG games, except for horror-themed titles or those with a similar vibe. Here are
+      some games that have deeply inspired and that I&#39;ve loved:
+    </p>
+    <h3 id="favorites"><a href="#favorites">Favorites</a></h3>
+    <ul>
+      <li>Croket! Great Jikuu no Boukensha (Game Boy Advance)</li>
+      <li>Jet Impulse (Nintendo DS)</li>
+      <li>Harvest Moon DS: Grand Bazaar (Nintendo DS)</li>
+      <li>Keroro RPG: Kishi to Musha to Densetsu no Kaizoku (Nintendo DS)</li>
+      <li>Suikoden Tierkreis (Nintendo DS)</li>
+      <li>Grand Theft Auto IV (PC)</li>
+      <li>Xenoblade Chronicles DE (Nintendo Switch)</li>
+    </ul>
+    <h3 id="currently-playing"><a href="#currently-playing">Currently Playing</a></h3>
+    <ul>
+      <li>Arknights</li>
+      <li>Final Fantasy XIV (Leaving for now)</li>
+      <li>Red Dead Redemption 2</li>
+      <li>Xenoblade Chronicles X DE</li>
+    </ul>
+    <h2 id="music"><a href="#music">Music</a></h2>
+    <p>
+      Music helping me get through the hardship of everyday life. I mostly listen the original soundtracks or Japanese
+      artists, as ACG culture had a huge impact on me while growing up. One of my favorite artist is the composer <a
+        href="https://en.wikipedia.org/wiki/Hiroyuki_Sawano"
+        rel="external">
+        Hiroyuki Sawano
+      </a>
+      , a legendary composer whose work I feel fortunate to have encountered in my life.
+    </p>
+    <h2 id="special-thanks"><a href="#special-thanks">Special Thanks</a></h2>
+    <p>
+      I want to express my gratitude and give credit to the creator of this blog, <a
+        href="https://github.com/kwchang0831"
+        rel="external">
+        kwchang0831
+      </a>
+      . He developed this awesome blog generator,
+      <strong>QWER</strong>
+      , built with SvelteKit. Thanks to its lightweight design and simplicity, I can easy focus on writing blog post instead
+      of create and maintain the entire web project by myself. If you are also interested in starting your own blog, you
+      can checkout the
+      <a href="https://github.com/kwchang0831/svelte-QWER" rel="external">project&#39;s repo</a>
+      .
+    </p>
+    <h2 id="outro"><a href="#outro">Outro</a></h2>
+    <p>Never stop creating, failing, and learning.</p>
+    <p>
+      Let me quote a refrain from one of the vocal work by Hiroyuki Sawano, <a
+        href="https://www.youtube.com/watch?v=AKAp0oGjxaM"
+        rel="external">
+        ViEW
+      </a>
+      , from his vocal project&#39;s second album,
+      <a href="https://en.wikipedia.org/wiki/2V-ALK" rel="external">2V-ALK</a>
+      (It&#39;s a great album by the way). The lyrics inspire me to hold on to my initial movitation in my heart while pursuing
+      my goals.
     </p>
     <blockquote>
       <p>
@@ -32,86 +122,13 @@
         <cite>SawanoHiroyuki[nZk]:mizuki - ViEW</cite>
       </p>
     </blockquote>
-    <h2 id="intro"><a href="#intro">Intro</a></h2>
     <p>
-      No matter how you found this website or are even interested in reading this article. Welcome here! My name&#39;s
-      Danny and nice to meet you all. I&#39;m a newbie game developer who just moving to Toronto from Hong Kong around
-      two months ago at the time I&#39;m writing this post. Since this is my first blog post, <del>
-        (And I actually don&#39;t know where to start lol)
-      </del>
-      I should share what will you find in this blog and my story first.
-    </p>
-    <h2 id="about-the-blog"><a href="#about-the-blog">About the blog</a></h2>
-    <p>
-      Most of the posts will focus on game development topics, such as dev logs or study progress (computer graphics or
-      software engineering). Sometime there may be book reviews or other things I&#39;d like to share. Ultimately, I
-      hope this blog is not just a place to store my cheat sheets but also something that can help others who are also
-      creating video games.
-    </p>
-    <h2 id="about-me"><a href="#about-me">About me</a></h2>
-    <p>
-      I was born in Hong Kong and I am 23 years old now. My life has been closely tied to video game when I was little.
-      I&#39;ve played various video games on Nintendo Game Boy Pocket, DVDs, Flash Player, and Nintendo DS. Many great
-      games have given me unforgettable memories, which guided me to become a game developer today. After graduating
-      from high school, I took a diploma and degree program in game software development, building my fundamental skills
-      over four years. Not long ago, I quit my job where I had worked for a year after graduating from college, and
-      moved to Canada to start a new journey.
-    </p>
-    <h3 id="hobbies"><a href="#hobbies">Hobbies</a></h3>
-    <h4 id="playing-video-game"><a href="#playing-video-game">Playing video game</a></h4>
-    <p>
-      Well, I&#39;ve played different genres except for horror theme or games have similar vibe. Here is the games which
-      inspired me so much back to the day I played:
-    </p>
-    <ul>
-      <li>Croket! Great Jikuu no Boukensha</li>
-      <li>Jet Impulse</li>
-      <li>Harvest Moon DS: Grand Bazaar</li>
-      <li>Keroro RPG: Kishi to Musha to Densetsu no Kaizoku</li>
-      <li>Suikoden Tierkreis</li>
-      <li>Grand Theft Auto IV</li>
-    </ul>
-    <p>Here is the games I recently playing:</p>
-    <ul>
-      <li>Arknights</li>
-      <li>Final Fantasy XIV</li>
-      <li>Red Dead Redemption 2</li>
-      <li>Xenoblade Chronicles DE</li>
-    </ul>
-    <h4 id="listening-music"><a href="#listening-music">Listening music</a></h4>
-    <p>
-      Music is my spiritual source, helping me get through the hardship of everyday life. I mostly listen the original
-      soundtracks or pop music created by Japanese artists, as ACG culture had a huge impact on me while growing up. One
-      of my favorite artist is the composer <a href="https://en.wikipedia.org/wiki/Hiroyuki_Sawano" rel="external">
-        Hiroyuki Sawano
-      </a>
-      , a legendary composer whose work I feel fortunate to have encountered in my life.
-    </p>
-    <p>
-      As you may have noticed from the preamble, I quoted a refrain from one of his vocal work, <a
-        href="https://www.youtube.com/watch?v=AKAp0oGjxaM"
+      If you want to find more about my works, feel free to visit my <a
+        href="https://portfolio.chcdanny.com"
         rel="external">
-        ViEW
+        portfolio
       </a>
-      , from his vocal project&#39;s second album,
-      <a href="https://en.wikipedia.org/wiki/2V-ALK" rel="external">2V-ALK</a>
-      (It&#39;s a great album by the way). The lyrics inspire me to hold on to my initial movitation in my heart while pursuing
-      my goals, which prefectly aligns with my current situation.
-    </p>
-    <h2 id="special-thanks"><a href="#special-thanks">Special thanks</a></h2>
-    <p>
-      I want to express my gratitude and give credit to the creator of this blog, <a
-        href="https://github.com/kwchang0831"
-        rel="external">
-        kwchang0831
-      </a>
-      . He developed this awesome blog generator,
-      <strong>QWER</strong>
-      , built with SvelteKit. Thanks to its lightweight design and simplicity, I can easy focus on writing blog post instead
-      of create and maintain the entire web project by myself. If you are also interested in starting your own blog, you
-      can checkout the
-      <a href="https://github.com/kwchang0831/svelte-QWER" rel="external">project&#39;s repo</a>
-      .
+      !
     </p>
   </article>
 </Post>
